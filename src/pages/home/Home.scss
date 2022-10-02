@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+body {
+  background-image: url("../../imgs/home-background.png");
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  margin-top: 10vh;
+  margin-left: -25vh;
+
+  .homeHead {
+    font-size: 40px;
+    text-decoration: underline solid #462523 1px;
+    margin-bottom: -5vh;
+
+    h2 {
+      background-image: linear-gradient(
+        to right,
+        #462523 0,
+        #cb9b51 22%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+      );
+      color: transparent;
+      -webkit-background-clip: text;
+
+      font-family: "Great Vibes", cursive;
+    }
+  }
+  .homeBody {
+    color: white;
+    width: 70%;
+    margin-left: 5vh;
+
+    p {
+      font-family: "Birthstone", cursive;
+      font-size: 50px;
+      text-align: center;
+    }
+  }
+}

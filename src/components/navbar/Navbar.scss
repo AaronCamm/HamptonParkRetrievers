@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.phone {
+  display: flex;
+  height: 5vh;
+  width: 95%;
+  align-items: center;
+  justify-content: flex-end;
+  color: #ddb500;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 14px;
+
+  .phoneImg {
+    width: 25px;
+    margin-right: 1vh;
+  }
+}
+
+.navContainer {
+  display: flex;
+  justify-content: right;
+
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  width: 100%;
+  height: 6vh;
+  border: 2px solid rgb(206, 188, 31);
+  border-left: none;
+  border-right: none;
+
+  .navItems {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    font-family: "Lexend", sans-serif;
+    font-weight: 300;
+
+    a {
+      text-decoration: none;
+      color: rgb(226, 226, 226);
+    }
+
+    li {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .navLogo {
+      display: flex;
+      width: 140px;
+      height: 140px;
+    }
+  }
+}
